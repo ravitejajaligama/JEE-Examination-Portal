@@ -117,13 +117,7 @@ Teacher/Student Portal: http://localhost:3002
 
 
 ## Current Status of my project
-The backend is fully set up for test creation and attempts.
-
-The frontend for admin is done.
-
-In the user-portal-frontend, the Teacher Register Page is not yet completed.
-
-Once the Teacher Register and Login Pages are implemented, the full functionality of the system will be available.
+The project is complete with all the necessary features.
 
 
 
