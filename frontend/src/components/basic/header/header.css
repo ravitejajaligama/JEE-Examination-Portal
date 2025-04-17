@@ -1,0 +1,87 @@
+/* Modern Header Styling */
+.header-container-2 {
+  position: fixed; /* Changed to fixed for better scroll behavior */
+  width: 100%;
+  padding: 15px 0;
+  background: rgba(255, 255, 255, 0.95); /* Added semi-transparent background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  z-index: 1000; /* Ensure header stays on top */
+  transition: all 0.3s ease; /* Smooth transition for any changes */
+}
+
+/* Logo styling */
+.logo {
+  width: 80px;
+  margin-left: 40px;
+  margin-top: 15px;
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.logo:hover {
+  transform: scale(1.05); /* Slight scale up on hover */
+}
+
+/* Container alignment */
+.header-container .logo,
+.header-container .navigation {
+  display: inline-block; /* Changed to inline-block for better control */
+  vertical-align: middle;
+}
+
+/* Navigation styling */
+.navigation {
+  list-style: none;
+  position: relative;
+  float: right;
+  margin: 0;
+  padding: 0;
+  right: 40px;
+  top: 30px;
+}
+
+/* Navigation items */
+.navigation li {
+  display: inline-block;
+  color: #2c3e50; /* Modern dark blue-grey color */
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 15px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.navigation li:hover {
+  color: #3498db; /* Blue highlight color */
+  background: rgba(52, 152, 219, 0.1); /* Subtle background on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Padding utility class */
+.p {
+  padding-right: 50px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .header-container-2 {
+    padding: 10px 0;
+  }
+
+  .logo {
+    margin-left: 20px;
+    width: 60px;
+  }
+
+  .navigation {
+    right: 20px;
+    top: 25px;
+  }
+
+  .navigation li {
+    font-size: 14px;
+    margin: 0 8px;
+    padding: 8px 12px;
+  }
+}
